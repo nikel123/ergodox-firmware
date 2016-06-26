@@ -60,21 +60,21 @@
 #define  UNUSED_4  E, 6  // hard to use with breadboard (internal)
 
 // --- rows
-#define  ROW_0  F, 7
-#define  ROW_1  F, 6
-#define  ROW_2  F, 5
-#define  ROW_3  F, 4
-#define  ROW_4  F, 1
-#define  ROW_5  F, 0
+#define  ROW_0  B, 2
+#define  ROW_1  F, 5
+#define  ROW_2  F, 4
+#define  ROW_3  B, 3
+#define  ROW_4  F, 6
+#define  ROW_5  F, 7
 
 // --- columns
-#define  COLUMN_7  B, 0
-#define  COLUMN_8  B, 1
-#define  COLUMN_9  B, 2
-#define  COLUMN_A  B, 3
-#define  COLUMN_B  D, 2
-#define  COLUMN_C  D, 3
-#define  COLUMN_D  C, 6
+#define  COLUMN_7  D, 2
+#define  COLUMN_8  D, 3
+#define  COLUMN_9  D, 4
+#define  COLUMN_A  C, 6
+#define  COLUMN_B  D, 7
+#define  COLUMN_C  E, 6
+#define  COLUMN_D  E, 4
 
 // --- helpers
 #define  SET    |=

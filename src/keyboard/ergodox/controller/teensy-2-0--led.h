@@ -15,8 +15,8 @@
 
 	// --------------------------------------------------------------------
 
-	#define _kb_led_1_on()           (DDRB |=  (1<<5))
-	#define _kb_led_1_off()          (DDRB &= ~(1<<5))
+	#define _kb_led_1_on()           (DDRB |=  (1<<1))
+	#define _kb_led_1_off()          (DDRB &= ~(1<<1))
 	#define _kb_led_1_set(n)         (OCR1A = (uint8_t)(n))
 	#define _kb_led_1_set_percent(n) (OCR1A = (uint8_t)((n) * 0xFF))
 
@@ -25,8 +25,8 @@
 	#define _kb_led_2_set(n)         (OCR1B = (uint8_t)(n))
 	#define _kb_led_2_set_percent(n) (OCR1B = (uint8_t)((n) * 0xFF))
 
-	#define _kb_led_3_on()           (DDRB |=  (1<<7))
-	#define _kb_led_3_off()          (DDRB &= ~(1<<7))
+	#define _kb_led_3_on()           (DDRB |=  (1<<5))
+	#define _kb_led_3_off()          (DDRB &= ~(1<<5))
 	#define _kb_led_3_set(n)         (OCR1C = (uint8_t)(n))
 	#define _kb_led_3_set_percent(n) (OCR1C = (uint8_t)((n) * 0xFF))
 
