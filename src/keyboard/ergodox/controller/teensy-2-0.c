@@ -74,7 +74,7 @@
 #define  COLUMN_A  C, 6
 #define  COLUMN_B  D, 7
 #define  COLUMN_C  E, 6
-#define  COLUMN_D  E, 4
+#define  COLUMN_D  B, 4
 
 // --- helpers
 #define  SET    |=
