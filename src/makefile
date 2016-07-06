@@ -159,3 +159,6 @@ clean:
 
 -include $(OBJ:%=%.dep)
 
+.PHONY: flash
+flash: all
+	avrdude -V -D -Uflash:w:firmware.hex:i -patmega32u4 -cavr109 -P/dev/ttyACM0
