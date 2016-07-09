@@ -26,13 +26,13 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
 0,
 // left hand
     _grave,     _1,         _2,      _3,      _4,    _5,   _6,
-      _esc,     _Q,         _W,      _E,      _R,    _T,    1,
+      _tab,     _Q,         _W,      _E,      _R,    _T,    1,
       _del,     _A,         _S,      _D,      _F,    _G,
    _shiftL,     _Z,         _X,      _C,      _V,    _B,    1,
-     _home, _pageD,     _pageU,    _end, _guiL,
+     _guiL,  _home,     _pageU,  _pageD,    _end,
                                               _bracketL, _guiL,
                                              0,      0,  _altL,
-                                        _enter,   _tab,  _ctrlR,
+                                        _enter,   _esc,  _ctrlR,
 // right hand
         3, _7,      _8,      _9,      _0,      _dash,    _equal,
         1, _Y,      _U,      _I,      _O,         _P,_backslash,
